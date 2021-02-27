@@ -1,0 +1,313 @@
+@charset "utf-8";
+
+body, h1, h2, h3, h4, h5, ul, li, dl, dt, dd, input { margin: 0px; padding: 0px; }
+
+a, form { border: none; display: block; }
+
+img { border: none; }
+
+a, ul, li, h1, h2, dl, dt, dd { list-style: none; text-decoration: none; }
+
+.h-top { background-color: rgb(235, 235, 235); height: 24px; font-family: 宋体; font-size: 12px; }
+
+.header { width: 1100px; margin-left: auto; margin-right: auto; overflow: hidden; }
+
+.fl { color: rgb(85, 85, 85); font-size: 12px; float: left; line-height: 24px; margin: 0px; padding: 0px; }
+
+.top-right { float: right; width: 183px; color: rgb(85, 85, 85); font-size: 12px; }
+
+.top-right a { display: inline; color: rgb(85, 85, 85); font-size: 12px; margin-right: 5px; line-height: 24px; }
+
+.h-box { height: 114px; }
+
+.h-con { height: 114px; width: 1100px; margin: 0px auto; }
+
+.h-con h1 { float: left; width: 820px; height: 89px; padding-top: 24px; }
+
+.h-pho { float: right; width: 232px; margin-top: 24px; }
+
+.h-pho a { width: 92px; height: 28px; background: url("../images/h-dl.png"); margin: 0px auto 6px; }
+
+.nav-box { height: 50px; background: rgb(236, 4, 27); }
+
+.nav { height: 50px; width: 1100px; margin: 0px auto; }
+
+.nav ul { width: 1100px; overflow: hidden; height: 50px; }
+
+.nav ul li { float: left; width: 156px; height: 50px; border-right: 1px solid rgb(245, 80, 99); }
+
+.nav ul li a { font-size: 15px; color: white; line-height: 50px; width: 156px; text-align: center; height: 55px; display: block; font-family: 微软雅黑; }
+
+.nav ul li a:hover { font-weight: bold; }
+
+.nav-banner { position: relative; margin: 0px auto; height: 550px; overflow: hidden; width: 100%; }
+
+.banner { width: 1920px; height: 550px; position: absolute; bottom: 0px; left: 50%; margin-left: -960px; }
+
+.banner ul { width: 1920px; height: 550px; }
+
+.banner ul li { width: 1920px; height: 550px; }
+
+.banner ul li img { width: 1920px; height: 550px; }
+
+.small { position: absolute; left: 50%; bottom: 12%; cursor: pointer; margin-left: 0px; }
+
+.small a { width: 40px; height: 4px; background: white; float: left; margin: 0px 8px; }
+
+.small .small_s { background: rgb(236, 4, 27); width: 40px; height: 4px; }
+
+.s-bg { height: 58px; font-size: 12px; overflow: hidden; }
+
+.h-ser { width: 1100px; margin: 0px auto; overflow: hidden; padding-top: 10px; }
+
+.h-ser p { float: left; width: 670px; overflow: hidden; color: rgb(51, 51, 51); height: 39px; margin: 9px; }
+
+.h-ser b { color: rgb(51, 51, 51); font-weight: bold; font-size: 14px; }
+
+.h-ser p a { padding: 0px 6px; display: inline-block; color: rgb(102, 102, 102); }
+
+.s-inp { width: 255px; margin-top: 7px; float: right; }
+
+.inp01 { background: url("../images/s_inp.gif") no-repeat; width: 170px; height: 21px; line-height: 21px; border: none; padding: 0px 3px 0px 27px; float: left; color: rgb(153, 153, 153); font-size: 12px; }
+
+.fl { float: left; }
+
+.xian { height: 10px; background: rgb(243, 154, 0); }
+
+.pro-box { width: 1100px; margin: 0px auto; padding-top: 40px; font-family: 微软雅黑; }
+
+.pro { border-bottom: 1px solid rgb(224, 224, 224); padding-bottom: 40px; overflow: hidden; }
+
+.pro-left { float: left; width: 520px; background: url("../images/chan-xian.png") right center no-repeat; }
+
+.pro-left h2 { height: 90px; line-height: 90px; font-size: 18px; color: rgb(34, 34, 34); font-weight: 700; }
+
+.pro-left p { height: 36px; line-height: 36px; color: rgb(34, 34, 34); font-size: 14px; margin: 0px; }
+
+.pro-left b { color: rgb(230, 3, 21); font-weight: normal; height: 36px; line-height: 36px; font-size: 14px; }
+
+.proa { overflow: hidden; padding-top: 30px; }
+
+.proa a { font-size: 14px; color: white; float: left; }
+
+.proa1 { background: url("../images/cha.png"); width: 108px; height: 27px; }
+
+.proa2 { background: url("../images/jia.png"); width: 72px; height: 27px; line-height: 27px; padding-left: 36px; margin-left: 20px; }
+
+.pro-right { float: right; width: 520px; padding-top: 30px; }
+
+.pro1-right { float: right; width: 510px; }
+
+.pro1-right h2 { height: 90px; line-height: 90px; font-size: 18px; color: rgb(34, 34, 34); font-weight: 700; }
+
+.pro1-right p { height: 36px; line-height: 36px; color: rgb(34, 34, 34); font-size: 14px; margin: 0px; }
+
+.pro1-right b { color: rgb(230, 3, 21); font-weight: normal; height: 36px; line-height: 36px; font-size: 14px; }
+
+.proa { overflow: hidden; padding-top: 30px; }
+
+.proa a { font-size: 14px; color: white; float: left; }
+
+.proa1 { background: url("../images/cha.png"); width: 108px; height: 27px; }
+
+.proa2 { background: url("../images/jia.png"); width: 72px; height: 27px; line-height: 27px; padding-left: 36px; margin-left: 20px; }
+
+.pro1-left { float: left; width: 530px; padding-top: 30px; background: url("../images/chan-xian.png") right center no-repeat; }
+
+.jiju { width: 1100px; margin: 0px auto; }
+
+.tong1-box { position: relative; margin: 0px auto; height: 231px; overflow: hidden; width: 100%; }
+
+.tong1 { width: 1920px; height: 231px; position: absolute; bottom: 0px; left: 50%; margin-left: -960px; background: url("../images/tl1.png"); }
+
+.t1 { width: 1100px; height: 231px; margin: 0px auto; overflow: hidden; }
+
+.bs-box { height: 750px; background: rgb(245, 255, 236); padding-top: 50px; }
+
+.bs { width: 1100px; margin: 0px auto; background: white; }
+
+.bs img { display: block; margin: 0px auto; }
+
+.ys-box { padding-top: 30px; }
+
+.ys { width: 1100px; margin: 0px auto; position: relative; background: url("../images/you-di.jpg") no-repeat; height: 800px; }
+
+.ys ul { position: absolute; width: 520px; }
+
+.ys ul li { width: 520px; overflow: hidden; font-size: 14px; color: rgb(34, 34, 34); line-height: 26px; font-family: 微软雅黑; }
+
+.you01 { right: 0px; top: 180px; }
+
+.you02 { right: 0px; top: 336px; }
+
+.you03 { right: 0px; top: 510px; }
+
+.you04 { right: 0px; top: 660px; }
+
+.jm { width: 1100px; margin: 0px auto; overflow: hidden; }
+
+.jm-left { width: 582px; height: 642px; background: url("../images/j-l.jpg") no-repeat; float: left; }
+
+.jm-left ul { padding-top: 230px; margin-left: 78px; }
+
+.jm-left ul li { margin-bottom: 50px; width: 421px; overflow: hidden; }
+
+.jm-left ul li h2 { font-size: 16px; font-weight: normal; }
+
+.jm-left ul li p { margin: 0px; line-height: 26px; font-size: 13px; padding-left: 10px; width: 410px; }
+
+.jm-right { background: url("../images/j-r.jpg"); width: 515px; height: 558px; float: right; margin-top: 78px; }
+
+.kehu-box { height: 520px; overflow: hidden; }
+
+.kehu { width: 1100px; margin: 0px auto; padding-top: 30px; }
+
+.kehu h2 { width: 1100px; height: 79px; background: url("../images/ke-nav.png") no-repeat; margin: 0px auto; }
+
+.keh { width: 1100px; background: url("../images/ke-di.png"); height: 340px; margin-top: 40px; }
+
+.keh dl { float: left; width: 550px; height: 150px; overflow: hidden; margin-bottom: 40px; }
+
+.kju { margin-right: 56px; }
+
+.keh dl dt { float: left; width: 204px; height: 147px; }
+
+.keh dl dt a img { width: 204px; height: 147px; }
+
+.keh dl dd { float: left; width: 300px; margin-left: 20px; }
+
+.keh dl dd h3 { width: 300px; color: rgb(35, 35, 35); font-size: 14px; height: 30px; line-height: 30px; }
+
+.keh dl dd p { width: 300px; color: rgb(119, 119, 119); font-size: 12px; display: block; line-height: 23px; margin: 0px; height: 90px; overflow: hidden; }
+
+.keh dl dd a { width: 300px; color: rgb(218, 4, 22); font-size: 12px; display: block; line-height: 23px; }
+
+.gongsi-box { height: 290px; overflow: hidden; width: 100%; clear: both; }
+
+.jianjie { width: 1100px; margin-left: auto; margin-right: auto; }
+
+.jianjie .shang { height: 270px; width: 710px; float: left; overflow: hidden; }
+
+.jianjie .shang h2 { background: rgb(218, 4, 22); width: 710px; height: 48px; overflow: hidden; }
+
+.jianjie .shang h2 p { float: left; width: 200px; margin: 11px 0px 0px 20px; height: 48px; }
+
+.jianjie .shang h2 .aaa { float: right; font-size: 12px; color: white; font-family: 微软雅黑; width: 100px; text-align: right; display: block; font-weight: normal; line-height: 48px; }
+
+.jianjie .shang .xia { width: 710px; overflow: hidden; height: 300px; padding-top: 30px; }
+
+.jianjie .shang .xia .bei { background-image: url("../images/tu-di.png"); width: 236px; height: 192px; float: left; }
+
+.jianjie .shang .xia img { width: 236px; height: 176px; }
+
+.jianjie .shang .xia .jian-wen { float: left; width: 450px; margin-left: 24px; }
+
+.jianjie .shang .xia .jian-wen h3 { font-size: 14px; color: rgb(51, 51, 51); font-family: 微软雅黑; font-weight: bold; }
+
+.jianjie .shang .xia .jian-wen p { font-size: 13px; color: rgb(51, 51, 51); width: 450px; height: 110px; line-height: 24px; font-family: 微软雅黑; overflow: hidden; margin: 16px 0px 0px; }
+
+.jian-wen a { font-size: 13px; color: rgb(218, 4, 22); width: 400px; }
+
+.zizhi { width: 390px; float: right; overflow: hidden; }
+
+.zizhi h2 { background: rgb(218, 4, 22); width: 390px; height: 48px; overflow: hidden; }
+
+.zizhi h2 p { float: left; width: 140px; margin: 11px 0px 0px 30px; }
+
+.zizhi h2 .aaa { float: right; font-size: 12px; color: white; font-family: 微软雅黑; width: 100px; text-align: center; display: block; font-weight: normal; line-height: 48px; }
+
+.zizhi-b { padding-top: 30px; overflow: hidden; margin-left: 74px; }
+
+.zizhi-b .mr_frbox { height: 230px; }
+
+.hezi { width: 242px; height: 270px; float: left; overflow: hidden; margin-left: 28px; }
+
+.hezi ul { width: 100%; }
+
+.hezi ul li { float: left; width: 230px; height: 232px; margin-right: 12px; }
+
+.hezi ul li img { width: 228px; height: 170px; border: 1px solid rgb(204, 204, 204); }
+
+.hezi ul li p { width: 230px; text-align: center; line-height: 24px; font-size: 12px; margin: 0px; color: rgb(108, 108, 108); }
+
+.zizhi-b .but-left { width: 15px; height: 28px; float: left; margin-top: 70px; cursor: pointer; display: inline; }
+
+.zizhi-b .but-right { width: 15px; height: 28px; float: right; margin-top: 70px; cursor: pointer; }
+
+.dt-box { width: 1100px; margin-left: auto; margin-right: auto; overflow: hidden; }
+
+.fr { float: right; }
+
+.dongtai { width: 550px; float: left; }
+
+.dongtai h2 { background: rgb(218, 4, 22); width: 550px; height: 48px; overflow: hidden; }
+
+.dongtai h2 p { float: left; width: 140px; margin: 11px 0px 0px 20px; }
+
+.dongtai h2 .aaa { float: right; font-size: 12px; color: white; font-family: 微软雅黑; width: 100px; text-align: center; display: block; font-weight: normal; line-height: 48px; }
+
+.xw-dong { width: 530px; padding-top: 24px; height: 330px; overflow: hidden; padding-left: 10px; }
+
+.dong-he { width: 530px; padding-left: 10px; }
+
+.dong-nei { height: 160px; }
+
+.dong-nei dt { width: 210px; height: 146px; float: left; }
+
+.dong-nei dt a { width: 210px; height: 146px; border: 1px solid rgb(204, 204, 204); }
+
+.dong-nei dt a img { width: 210px; height: 146px; }
+
+.dong-nei dd { float: right; width: 300px; height: 146px; overflow: hidden; }
+
+.dong-nei dd h4 { color: rgb(25, 25, 25); font-weight: normal; width: 310px; }
+
+.dong-nei dd h4 a { color: rgb(25, 25, 25); font-size: 15px; width: 300px; text-align: left; font-family: 微软雅黑; }
+
+.dong-nei dd p { font-size: 13px; color: rgb(51, 51, 51); width: 300px; height: 100px; line-height: 26px; font-family: 微软雅黑; margin: 10px 0px 0px; }
+
+.dong-nei dd .chk1 { font-size: 12px; color: rgb(218, 4, 22); width: 350px; }
+
+.dongxin { width: 520px; float: left; padding-top: 20px; }
+
+.hh { margin-left: 20px; }
+
+.dongxin li { width: 240px; line-height: 30px; padding-left: 20px; background: url("../images/new-b.png") left center no-repeat; float: left; }
+
+.dongxin li a { width: 230px; line-height: 30px; font-size: 13px; color: rgb(51, 51, 51); height: 30px; overflow: hidden; }
+
+.link { width: 1100px; margin: 0px auto; height: 110px; overflow: hidden; clear: both; }
+
+.link h2 { height: 25px; width: 1100px; }
+
+.link ul { width: 1000px; margin: 0px auto; padding: 20px 50px; }
+
+.link ul a { font-size: 13px; color: rgb(51, 51, 51); margin-right: 20px; float: left; }
+
+.link p { width: 1100px; margin: 0px; }
+
+.link p a { width: 120px; text-align: right; font-size: 12px; color: rgb(218, 4, 22); font-family: 微软雅黑; float: right; }
+
+.bot-box { position: relative; margin: 0px auto; height: 270px; overflow: hidden; width: 100%; clear: both; }
+
+.bot-b { width: 1920px; height: 270px; position: absolute; bottom: 0px; left: 50%; margin-left: -960px; background: url("../images/bot-di.png"); }
+
+.bot { width: 1110px; height: 270px; margin: 0px auto; }
+
+.bot-nav { width: 1100px; overflow: hidden; }
+
+.bot-nav li { float: left; width: 156px; height: 50px; }
+
+.bot-nav li a { font-size: 15px; color: black; line-height: 54px; width: 156px; text-align: center; height: 55px; display: block; font-family: 微软雅黑; }
+
+.l-bot { overflow: hidden; width: 1100px; margin: 0px auto; }
+
+.bot-logo { float: left; display: block; margin-top: 60px; margin-right: 70px; }
+
+.bot-w { width: 360px; float: left; padding-top: 30px; }
+
+.bot-w p { margin: 0px; font-size: 13px; line-height: 22px; color: rgb(64, 64, 64); }
+
+.bot-w p a { color: rgb(64, 64, 64); font-size: 13px; display: inline; }
+
+.erwei { float: right; padding-top: 40px; }
